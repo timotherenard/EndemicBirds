@@ -75,7 +75,19 @@ section{
 
 }
 
+.species{
+	font-family:cursive;
+	font-style:italic;
+}
+.bird{
+	width:95vw;
+	margin-left:10px;
+}
 
+.both{
+	width:45vw;
+	margin-left:10px;
+}
 
 
 @media screen and (min-width:800px){
@@ -125,8 +137,15 @@ section{
 	}
 
 	section{
+		width:90vw;
+		display:block;
+	}
+	section p{
 		width:40vw;
 		display:inline-block;
+	}
+	section h2{
+		clear:both;
 	}
 	.ParkPhoto{
 		display:inline-block;
@@ -139,6 +158,25 @@ section{
 		display:block;
 		clear:both;
 	}
+	
+	.bird{
+		display:inline-block;
+		width:30vw;
+		float:right;
+	}
+	
+	.both{
+		width:20vw;
+	}
+	#Introduction{
+		width:95vw;
+	}
+	#Introduction p{
+		width:95vw;
+	}
+	
+	
+	
 }
 	
 	
