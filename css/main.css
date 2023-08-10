@@ -93,7 +93,9 @@ section{
 	width:45vw;
 	margin-left:10px;
 }
-
+nav #thispage{
+	border-color:#da2a2a;
+}
 
 @media screen and (min-width:800px){
 	header{
